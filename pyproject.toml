@@ -1,0 +1,20 @@
+[project]
+name = "backend-comparison"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ksk0629",email = "neko.to.tomodachi.muse@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "~3.13"
+dependencies = [
+    "qiskit (>=2.0.0,<3.0.0)",
+    "qiskit-aer (>=0.17.0,<0.18.0)",
+    "mqt-ddsim (>=1.24.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
